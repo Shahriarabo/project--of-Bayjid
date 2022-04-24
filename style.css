@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+hr:not([size]) {
+	height: 2px;
+    width: 40px;
+    background: #ed091c
+}
+.card-text{
+    position: relative;
+}
+.descreption::after {
+    position: absolute;
+    content: "";
+   height: 1px;
+    width: 300px;
+    background: #b7c5e1;
+}
+.card-title:hover{
+    color: #ff4151;
+}
+.card-title{
+    color: #565972;
+}
+.card-text{
+    color: #565972;
+}
+.card-text:hover{
+    color: #ff4151;
+}
+.text {
+    color: #565972; 
+}
+.fa-solid.fa-heart.mt-3 {
+	margin-left: 50px;
+    color: #565972; 
+}
+.fa-solid.fa-calendar-days.mt-3 {
+	color:  #565972; 
+}
